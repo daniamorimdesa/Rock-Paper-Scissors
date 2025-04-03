@@ -1,9 +1,9 @@
 ## 🎮✊📃✂️ Rock Paper Scissors | 8-bit Edition
 A classic Rock, Paper, Scissors game with a retro 8-bit style! Built with HTML, CSS, and JavaScript, this project features animations and a score tracker for a fun and engaging experience.
 
-![Preview](screenshot.JPG)
+![Preview](preview.gif)
 
----
+
 
 ## How to Play
 1. Choose your move: Rock 👊, Paper ✋, or Scissors ✌️
@@ -14,7 +14,7 @@ A classic Rock, Paper, Scissors game with a retro 8-bit style! Built with HTML, 
 ---
 
 ## Play Now
-- GitHub Pages: Play here (Update this link after enabling GitHub Pages!)
+- GitHub Pages: [Play here](https://daniamorimdesa.github.io/Rock-Paper-Scissors/)
 - CodePen: [View on CodePen](https://codepen.io/daniamorimdesa/pen/PwoVmgd?editors=0100)
 
 ---
