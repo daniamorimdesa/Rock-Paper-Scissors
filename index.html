@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>AULA2_Rock, Paper, Scissors!</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <h1>Rock Paper Scissors</h1>
+  <p class="choose-move">Choose your move:</p>
+  <div class="choices">
+    <button class="rock" onclick="playGame('rock')">
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/026/547/561/non_2x/an-8-bit-retro-styled-pixel-art-illustration-of-a-light-blue-rock-formation-free-png.png"
+        alt="Rock"> Rock
+    </button>
+    <button class="paper" onclick="playGame('paper')">
+      <img
+        src="https://static.vecteezy.com/system/resources/thumbnails/042/117/912/small/8bit-retro-game-pixel-art-paper-map-banner-speech-bubble-balloon-icon-sticker-memo-keyword-planner-text-box-banner-flat-transparent-element-design-png.png"
+        alt="Paper"> Paper
+    </button>
+    <button class="scissors" onclick="playGame('scissors')">
+      <img
+        src="https://img.freepik.com/premium-vector/pixel-art-scissors-icon-with-vibrant-colors-retro-style-digital-design_1292377-16170.jpg"
+        alt="Scissors"> Scissors
+    </button>
+  </div>
+  <p id="player-choice"></p>
+  <p id="computer-choice"></p>
+  <p id="result"></p>
+  <p id="score">Player: 0 | Computer: 0</p>
+  <!-- partial -->
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
